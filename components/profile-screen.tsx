@@ -21,10 +21,10 @@ export function ProfileScreen() {
 
   // User profile state
   const [profile, setProfile] = useState({
-    name: "Alex Johnson",
-    username: "alexjohnson",
+    name: "Rahul",
+    username: "abhiyendru",
     bio: "News enthusiast and global citizen. Always looking for the latest updates on world events.",
-    avatar: "/placeholder.svg?height=96&width=96",
+    avatar: "/credible_icon.png?height=96&width=96",
   })
 
   // Editing state
