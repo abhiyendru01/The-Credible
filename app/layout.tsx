@@ -8,16 +8,18 @@ const outfit = Outfit({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "The Credible - Global News",
-  description: "Real-time global news platform with a luxurious experience",
+  description: "Real-time global news platform ",
   manifest: "/manifest.json",
   themeColor: "#000000",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
     title: "The Credible",
+    startupImage: "/public/credible_icon.png",
+
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-    generator: 'v0.dev'
+    generator: 'Abhiyendru'
 }
 
 export default function RootLayout({
